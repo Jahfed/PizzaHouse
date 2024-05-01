@@ -25,8 +25,8 @@ Route::post('/pizzas', [PizzaController::class, 'store'])->name('pizzas.store');
 Route::get('/pizzas/{id}', [PizzaController::class, 'show'])->name('pizzas.show')->middleware('auth');
 Route::delete('/pizzas/{id}', [PizzaController::class, 'destroy'])->name('pizzas.destroy')->middleware('auth');
 
-// Route::get('/register', 'RegisterController@create');
-// Route::post('/register', 'RegisterController@store');
+Route::get('/register', 'RegisterController@create');
+Route::post('/register', 'RegisterController@store');
 // Route::get('/login', 'SessionController@create');
 // Route::post('/login', 'SessionController@store');
 // Route::post('/logout', 'SessionController@destroy');

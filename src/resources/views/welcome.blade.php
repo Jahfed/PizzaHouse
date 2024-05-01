@@ -3,7 +3,7 @@
 @section('content')
     <div class="main">
         <img src="/img/pizza.jpg"  alt="pizza">
-        <h1>The best Pizzas in town</h1>
+        <h1>Very nice Pizzas!</h1>
         <p class="mssg">{{session('mssg')}}</p>
         
         @auth

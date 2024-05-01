@@ -23,7 +23,7 @@
     <header class='header'>
         <a href="/" class="navigate">Home</a>
         @guest
-        {{-- <a href="/register" class="navigate">Register</a> --}}
+        <a href="/register" class="navigate">Register</a>
         <a href="/login" class="navigate">Login</a>
         @endguest
 
